@@ -2,7 +2,10 @@
 
 Justa.js is just a JavaScript Library, collected some Fun function that are boring, for work, and suddenly thought of. The purpose is to improve my JavaScript skill, and share them with everyone to discuss and how to write better.
 
-# API
+## Resources
+* [API](#api)
+
+## API
 Url Parse：
 * [symbolParser](#symbolparser)
 * [symbolAntiParser](#symbolantiparser)
