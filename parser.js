@@ -11,7 +11,7 @@ function symbolParser (source = '', splitSymbol = '/', filterSymbol = '_', rever
     return parseStorage
 }
 
-function symbolAntiParser (source, splitSymbol = '/', filterSymbol = '_', reverseParseResult = false, removefirstSymbol = false) {
+function symbolAntiParser (source, splitSymbol = '/', filterSymbol = '_', reverseParseResult = false, removeFirstSymbol = false) {
     let stringStorage = ''
     for (key in source) {
         stringStorage += reverseParseResult
@@ -19,5 +19,5 @@ function symbolAntiParser (source, splitSymbol = '/', filterSymbol = '_', revers
             :`${splitSymbol}${key}${filterSymbol}${source[key]}`
     }
     
-    return (removefirstSymbol) ? stringStorage.slice(-(stringStorage.length-1)) : stringStorage
+    return (removeFirstSymbol) ? stringStorage.slice(-(stringStorage.length-1)) : stringStorage
 }
