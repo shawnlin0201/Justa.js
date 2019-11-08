@@ -4,16 +4,16 @@ Justa.js is just a JavaScript Library, collected some Fun function that are bori
 
 # API
 Url Parse：
-- [symbolParser](/#symbolparser)
-- [symbolAntiParser](/#symbolAntiParser)
+* [symbolParser](/#symbolparser)
+* [symbolAntiParser](/#symbolAntiParser)
 
 ------
 ### symbolParser
 **symbolParser (source, splitSymbol, filterSymbol,[ reverseParseResult])**
-- source: string, Input the text you want to parse.
-- splitSymbol: string, Define the symbols you use to separate the search filter.
-- filterSymbol: string, Define the symbols you use to separate the search filter type.
-- reverseParseResult: boolean (default: false), Reverse parse result if you want.
+* source: string, Input the text you want to parse.
+* splitSymbol: string, Define the symbols you use to separate the search filter.
+* filterSymbol: string, Define the symbols you use to separate the search filter type.
+* reverseParseResult: boolean (default: false), Reverse parse result if you want.
 ```
 let text1 = '/台北市_city/中正區_country/市民大道_street'
 let text2 = 'firstname=Shawn&lastname=Lin&Age=25'
@@ -31,11 +31,11 @@ console.log(thirdParse)      // return {week: "1-5", startwork: "0830-1000", end
 ### symbolAntiParser
 **symbolAntiParser (source, splitSymbol, filterSymbol, [ reverseParseResult, removeFirstSymbol])**
 
-- source: object, Input the Object you want to anti-parse into String.
-- splitSymbol: string, Define the symbols you use to combine the search filter.
-- filterSymbol: string, Define the symbols you use to combine the search filter type.
-- reverseParseResult: boolean (default: false), Reverse combine result if you want.
-- removeFirstSymbol: boolean (default: false), Remove first symbol if you want.
+* source: object, Input the Object you want to anti-parse into String.
+* splitSymbol: string, Define the symbols you use to combine the search filter.
+* filterSymbol: string, Define the symbols you use to combine the search filter type.
+* reverseParseResult: boolean (default: false), Reverse combine result if you want.
+* removeFirstSymbol: boolean (default: false), Remove first symbol if you want.
 ```
 let obj1 = {city: "新北市", country: "樹林區", street: "鎮前街"}
 let obj2 = {firstname: "Shawn", lastname: "Lin", Age: "25"}
