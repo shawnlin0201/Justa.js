@@ -4,8 +4,8 @@ Justa.js is just a JavaScript Library, collected some Fun function that are bori
 
 # API
 Url Parse：
-- [symbolParser](/#symbolParser)
-- [symbolAntiParser](/#symbolAntiParser)
+- [symbolParser](/#symbolparser-source-splitsymbol-filtersymbol-reverseparseresult)
+- [symbolAntiParser](/#symbolantiparser-source-splitsymbol-filtersymbol--reverseparseresult-removefirstsymbol)
 
 ------
 <h4 id="#symbolParser">symbolParser (source, splitSymbol, filterSymbol,[ reverseParseResult])</h4>
