@@ -3,8 +3,13 @@
 Justa.js is just a JavaScript Library, collected some Fun function that are boring, for work, and suddenly thought of. The purpose is to improve my JavaScript skill, and share them with everyone to discuss and how to write better.
 
 # API
+Url Parse：
+- [symbolParser](/#symbolParser)
+- [symbolAntiParser](/#symbolAntiParser)
 
-**symbolParser (source, splitSymbol, filterSymbol,[ reverseParseResult])**
+------
+<h4 id="#symbolParser">symbolParser (source, splitSymbol, filterSymbol,[ reverseParseResult])</h4>
+
 - source: string, Input the text you want to parse.
 - splitSymbol: string, Define the symbols you use to separate the search filter.
 - filterSymbol: string, Define the symbols you use to separate the search filter type.
@@ -23,7 +28,8 @@ console.log(secondParse)     // return {firstname: "Shawn", lastname: "Lin", Age
 console.log(thirdParse)      // return {week: "1-5", startwork: "0830-1000", endwork: "1800-1930"}
 ```
 
-**symbolAntiParser (source, splitSymbol, filterSymbol, [ reverseParseResult, removeFirstSymbol])**
+<h4 id="#symbolAntiParser">symbolAntiParser (source, splitSymbol, filterSymbol, [ reverseParseResult, removeFirstSymbol])</h4>
+
 - source: object, Input the Object you want to anti-parse into String.
 - splitSymbol: string, Define the symbols you use to combine the search filter.
 - filterSymbol: string, Define the symbols you use to combine the search filter type.
