@@ -40,7 +40,7 @@ console.log(thirdParse)      // return {week: '1-5', startwork: '0830-1000', end
 * reverseParseResult: boolean (default: false), Reverse combine result if you want.
 * removeFirstSymbol: boolean (default: false), Remove first symbol if you want.
 ```js
-let obj1 = {city: {city: '台北市', country: '中正區', street: '市民大道'}
+let obj1 = {city: '台北市', country: '中正區', street: '市民大道'}
 let obj2 = {firstname: "Shawn", lastname: "Lin", Age: "25"}
 let obj3 = {week: "1-5", startwork: "0830-1000", endwork: "1800-1930"}
 
