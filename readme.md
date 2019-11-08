@@ -23,8 +23,12 @@ console.log(secondParse)     // return {firstname: "Shawn", lastname: "Lin", Age
 console.log(thirdParse)      // return {week: "1-5", startwork: "0830-1000", endwork: "1800-1930"}
 ```
 
-**symbolAntiParser (source, splitSymbol, filterSymbol, [ reverseParseResult, removeLastSymbol])**
-- source 
+**symbolAntiParser (source, splitSymbol, filterSymbol, [ reverseParseResult, removeFirstSymbol])**
+- source: object, Input the Object you want to anti-parse into String.
+- splitSymbol: string, Define the symbols you use to combine the search filter.
+- filterSymbol: string, Define the symbols you use to combine the search filter type.
+- reverseParseResult: boolean (default: false), Reverse combine result if you want.
+- removeFirstSymbol: boolean (default: false), Remove first symbol if you want.
 ```
 let obj1 = {city: "新北市", country: "樹林區", street: "鎮前街"}
 let obj2 = {firstname: "Shawn", lastname: "Lin", Age: "25"}
