@@ -8,8 +8,8 @@ Url Parse：
 - [symbolAntiParser](/#symbolantiparser-source-splitsymbol-filtersymbol--reverseparseresult-removefirstsymbol)
 
 ------
-<h4 id="#symbolParser">symbolParser (source, splitSymbol, filterSymbol,[ reverseParseResult])</h4>
-
+### symbolParser
+**symbolParser (source, splitSymbol, filterSymbol,[ reverseParseResult])**
 - source: string, Input the text you want to parse.
 - splitSymbol: string, Define the symbols you use to separate the search filter.
 - filterSymbol: string, Define the symbols you use to separate the search filter type.
@@ -28,7 +28,8 @@ console.log(secondParse)     // return {firstname: "Shawn", lastname: "Lin", Age
 console.log(thirdParse)      // return {week: "1-5", startwork: "0830-1000", endwork: "1800-1930"}
 ```
 
-<h4 id="#symbolAntiParser">symbolAntiParser (source, splitSymbol, filterSymbol, [ reverseParseResult, removeFirstSymbol])</h4>
+### symbolAntiParser
+**symbolAntiParser (source, splitSymbol, filterSymbol, [ reverseParseResult, removeFirstSymbol])**
 
 - source: object, Input the Object you want to anti-parse into String.
 - splitSymbol: string, Define the symbols you use to combine the search filter.
