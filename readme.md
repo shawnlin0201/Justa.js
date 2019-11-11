@@ -22,9 +22,9 @@ let text1 = '/台北市_city/中正區_country/市民大道_street'
 let text2 = 'firstname=Shawn&lastname=Lin&Age=25'
 let text3 = '/1-5_week/0830-1000_startwork/1800-1930_endwork'
 
-let firstParse = symbolParser(text[0], '/', '_')         
-let secondParse = symbolParser(text[1], '&', '=', true)
-let thirdParse = symbolParser(text[2], '/', '_') 
+let firstParse = symbolParser(text1, '/', '_')         
+let secondParse = symbolParser(text2, '&', '=', true)
+let thirdParse = symbolParser(text3, '/', '_') 
 
 console.log(firstParse)      // return {city: '台北市', country: '中正區', street: '市民大道'}
 console.log(secondParse)     // return {firstname: 'Shawn', lastname: 'Lin', Age: "25"}
