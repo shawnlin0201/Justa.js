@@ -1,2 +1,2 @@
-import parser from './parse'
+import parser from './parser'
 
