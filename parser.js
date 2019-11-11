@@ -1,6 +1,6 @@
 function symbolParser (source = '', splitSymbol = '/', filterSymbol = '_', reverseParseResult = false) {
     let parseStorage = {}
-    let reverseResult = reverseParseResult ? [0,1] : [1,0]    
+    let reverseResult = reverseParseResult ? [0,1] : [1,0]
     source
         .split(' ')
         .join('')
