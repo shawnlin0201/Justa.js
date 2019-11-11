@@ -2,6 +2,8 @@ function symbolParser (source = '', splitSymbol = '/', filterSymbol = '_', rever
     let parseStorage = {}
     let reverseResult = reverseParseResult ? [0,1] : [1,0]    
     source
+        .split(' ')
+        .join('')
         .split(splitSymbol)
         .filter(req => req.indexOf(filterSymbol) > -1)
         .forEach(req => {
