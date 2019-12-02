@@ -10,7 +10,7 @@ function symbolParser (source = '', splitSymbol = '/', filterSymbol = '_', rever
             let parse = req.split(filterSymbol)
             parseStorage[parse[reverseResult[0]]] = parse[reverseResult[1]]
         })
-    return false
+    return parseStorage
 }
 
 module.exports = symbolParser;
