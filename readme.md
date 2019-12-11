@@ -15,3 +15,7 @@ or
 
 ## Resources
 * [API](https://github.com/shawnlin0201/Justa.js/blob/master/API.md)
+
+## License
+
+MIT License
