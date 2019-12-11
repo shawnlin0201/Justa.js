@@ -14,8 +14,8 @@ or
 [Download source code!](https://raw.githubusercontent.com/shawnlin0201/Justa.js/master/justa.js)
 
 ## Resources
-* [API](https://github.com/shawnlin0201/Justa.js/blob/master/API.md)
+[API](https://github.com/shawnlin0201/Justa.js/blob/master/API.md)
 
 ## License
 
-- [MIT License](https://github.com/shawnlin0201/Justa.js/blob/master/LICENSE)
+[MIT License](https://github.com/shawnlin0201/Justa.js/blob/master/LICENSE)
