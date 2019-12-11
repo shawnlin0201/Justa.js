@@ -1,5 +1,5 @@
 var assert = require('chai').assert;
-const symbolParser = require('../symbolParser');
+const symbolParser = require('../src/parser/symbolParser');
 
 let testString = [
     '/台北市_city/中正區_country/市民大道_street',
