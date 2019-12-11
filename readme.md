@@ -5,4 +5,4 @@ Justa.js is just a JavaScript Library, collected some Fun function that are bori
 [![Build Status](https://travis-ci.org/shawnlin0201/Justa.js.svg?branch=master)](https://travis-ci.org/shawnlin0201/Justa.js)
 
 ## Resources
-* [API](#api)
+* [API](https://github.com/shawnlin0201/Justa.js/blob/master/API.md)
