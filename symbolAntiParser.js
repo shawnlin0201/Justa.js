@@ -1,4 +1,4 @@
-export default function symbolAntiParser (source, splitSymbol = '/', filterSymbol = '_', reverseParseResult = false, removeFirstSymbol = false) {
+function symbolAntiParser (source, splitSymbol = '/', filterSymbol = '_', reverseParseResult = false, removeFirstSymbol = false) {
     let stringStorage = ''
     for (key in source) {
         stringStorage += reverseParseResult
@@ -9,4 +9,4 @@ export default function symbolAntiParser (source, splitSymbol = '/', filterSymbo
     return (removeFirstSymbol) ? stringStorage.slice(-(stringStorage.length-1)) : stringStorage
 }
 
-// module.exports = symbolAntiParser;
+module.exports = symbolAntiParser;
