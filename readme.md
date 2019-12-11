@@ -1,14 +1,19 @@
 # Justa.js
 
+Justa.js 主要是用來收集工作上可能會用到的一些 JavaScript 方法庫。
+
 Justa.js is just a JavaScript Library, collected some Fun function that are boring, for work, and suddenly thought of. The purpose is to improve my JavaScript skill, and share them with everyone to discuss and how to write better.
 
 ## Resources
 * [API](#api)
 
 ## API
-Url Parse：
-* [symbolParser](#symbolparser)
-* [symbolAntiParser](#symbolantiparser)
+目前提供的 API：
+- [symbolParser](#symbolparser)：接收字串並依據符號設定解析至成件型態。
+- [symbolAntiParser](#symbolantiparser)：接收物件型態並反解析成字串型態。
+- [getCookie](#getCookie)：取得指定 cookie（名稱、鍵值、有效日期）。
+- [setCookie](#setCookie)：設定指定 cookie（名稱、鍵值、有效日期）。
+- [deleteCookie](#deleteCookie)：刪除指定 cookie（名稱）。
 
 ------
 ### symbolParser
