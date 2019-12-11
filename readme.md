@@ -18,4 +18,4 @@ or
 
 ## License
 
-- MIT License
+- [MIT License](https://github.com/shawnlin0201/Justa.js/blob/master/LICENSE)
