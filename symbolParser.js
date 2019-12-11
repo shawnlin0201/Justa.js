@@ -1,4 +1,4 @@
-function symbolParser (source = '', splitSymbol = '/', filterSymbol = '_', reverseParseResult = false) {
+export default function symbolParser (source = '', splitSymbol = '/', filterSymbol = '_', reverseParseResult = false) {
     let parseStorage = {}
     let reverseResult = reverseParseResult ? [0,1] : [1,0]
     source
@@ -13,4 +13,4 @@ function symbolParser (source = '', splitSymbol = '/', filterSymbol = '_', rever
     return parseStorage
 }
 
-module.exports = symbolParser;
+// module.exports = symbolParser;
