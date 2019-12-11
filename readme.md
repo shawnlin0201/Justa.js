@@ -6,12 +6,12 @@ Justa.js is just a JavaScript Library, collected some Fun function that are bori
 |---|---|---|
 |Travis-CI|[![Build Status](https://travis-ci.org/shawnlin0201/Justa.js.svg?branch=master)](https://travis-ci.org/shawnlin0201/Justa.js)|Unit testing & Node.js version check.|
 
-## Install
-
+## Quick Start
 ```html
 <script src="https://raw.githubusercontent.com/shawnlin0201/Justa.js/master/justa.js"></script>
 ```
-
+or
+[Download source code!](https://raw.githubusercontent.com/shawnlin0201/Justa.js/master/justa.js)
 
 ## Resources
 * [API](https://github.com/shawnlin0201/Justa.js/blob/master/API.md)
