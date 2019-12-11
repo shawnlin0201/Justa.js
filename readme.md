@@ -18,4 +18,4 @@ or
 
 ## License
 
-MIT License
+- MIT License
