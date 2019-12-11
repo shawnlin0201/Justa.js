@@ -6,9 +6,12 @@ Justa.js is just a JavaScript Library, collected some Fun function that are bori
 * [API](#api)
 
 ## API
-Url Parse：
-* [symbolParser](#symbolparser)
-* [symbolAntiParser](#symbolantiparser)
+目前提供的 API：
+- [symbolParser](#symbolparser)：接收字串並依據符號設定解析成物件型態。
+- [symbolAntiParser](#symbolantiparser)：接收物件型態並反解析成字串型態。
+- [getCookie](#getCookie)：取得指定 cookie（名稱、鍵值、有效日期）。
+- [setCookie](#setCookie)：設定指定 cookie（名稱、鍵值、有效日期）。
+- [deleteCookie](#deleteCookie)：刪除指定 cookie（名稱）。
 
 ------
 ### symbolParser
