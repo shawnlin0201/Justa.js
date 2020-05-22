@@ -1,7 +1,6 @@
 <h1 align="center">Justa.js</h1>
 
-<p align="center">Justa.js is just a JavaScript Library, collected some Fun function that are boring, for work, and suddenly thought of. The purpose is to improve my JavaScript skill, and share them with everyone to discuss and how to write better.</p>
-
+<p align="center">Justa.js is a JavaScript Utils Function Library, efficiently speed up work business.</p>
 
 |Service|Status|Description|
 |---|---|---|
