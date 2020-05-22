@@ -41,7 +41,7 @@ console.log(firstParse)      // return {city: '台北市', country: '中正區',
 console.log(secondParse)     // return {firstname: 'Shawn', lastname: 'Lin', Age: "25"}
 console.log(thirdParse)      // return {week: '1-5', startwork: '0830-1000', endwork: '1800-1930'}
 ```
-
+#### symbolAntiParser
 **symbolAntiParser (source, splitSymbol, filterSymbol, [ reverseParseResult, removeFirstSymbol])**
 
 * source: object, Input the Object you want to anti-parse into String.
