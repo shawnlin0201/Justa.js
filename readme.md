@@ -22,8 +22,7 @@ or
 - [deleteCookie](#deleteCookie)：刪除指定 cookie（名稱）。
 
 ------
-### symbolParser
-**symbolParser (source, splitSymbol, filterSymbol,[ reverseParseResult])**
+### symbolParser (source, splitSymbol, filterSymbol,[ reverseParseResult])**
 - source: string, Input the text you want to parse.
 - splitSymbol: string, Define the symbols you use to separate the search filter.
 - filterSymbol: string, Define the symbols you use to separate the search filter type.
