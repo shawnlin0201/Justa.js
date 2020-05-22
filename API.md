@@ -18,9 +18,9 @@ let text1 = '/台北市_city/中正區_country/市民大道_street'
 let text2 = 'firstname=Shawn&lastname=Lin&Age=25'
 let text3 = '/1-5_week/0830-1000_startwork/1800-1930_endwork'
 
-let firstParse = symbolParser(text1, '/', '_')         
-let secondParse = symbolParser(text2, '&', '=', true)
-let thirdParse = symbolParser(text3, '/', '_') 
+let firstParse = just.symbolParser(text1, '/', '_')         
+let secondParse = just.symbolParser(text2, '&', '=', true)
+let thirdParse = just.symbolParser(text3, '/', '_') 
 
 console.log(firstParse)      // return {city: '台北市', country: '中正區', street: '市民大道'}
 console.log(secondParse)     // return {firstname: 'Shawn', lastname: 'Lin', Age: "25"}
@@ -40,9 +40,9 @@ let obj1 = {city: '台北市', country: '中正區', street: '市民大道'}
 let obj2 = {firstname: "Shawn", lastname: "Lin", Age: "25"}
 let obj3 = {week: "1-5", startwork: "0830-1000", endwork: "1800-1930"}
 
-let anitParse1 = symbolAntiParser(obj1, '/' ,'_' , true)
-let anitParse2 = symbolAntiParser(obj2, '&' ,'=', false, true)
-let anitParse3 = symbolAntiParser(obj3, '/' ,'_', true)
+let anitParse1 = just.symbolAntiParser(obj1, '/' ,'_' , true)
+let anitParse2 = just.symbolAntiParser(obj2, '&' ,'=', false, true)
+let anitParse3 = just.symbolAntiParser(obj3, '/' ,'_', true)
 
 console.log(anitParse1)     // return '/台北市_city/中正區_country/市民大道_street'
 console.log(anitParse2)     // return 'firstname=Shawn&lastname=Lin&Age=25'
