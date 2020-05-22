@@ -43,13 +43,6 @@ console.log(secondParse)     // return {firstname: 'Shawn', lastname: 'Lin', Age
 console.log(thirdParse)      // return {week: '1-5', startwork: '0830-1000', endwork: '1800-1930'}
 ```
 
-### API
-- [symbolParser](#symbolparser)：接收字串並依據符號設定解析成物件型態。
-- [symbolAntiParser](#symbolantiparser)：接收物件型態並反解析成字串型態。
-- [getCookie](#getCookie)：取得指定 cookie（名稱、鍵值、有效日期）。
-- [setCookie](#setCookie)：設定指定 cookie（名稱、鍵值、有效日期）。
-- [deleteCookie](#deleteCookie)：刪除指定 cookie（名稱）。
-
 **symbolAntiParser (source, splitSymbol, filterSymbol, [ reverseParseResult, removeFirstSymbol])**
 
 * source: object, Input the Object you want to anti-parse into String.
