@@ -42,23 +42,26 @@ let just = justa = (function(){
         let coldown = false;
         let event = null;
         return function(...args) {
+            const context = this
             if(coldown) { return }
             
             coldown = true
             clearTimeout(event)
             event = setTimeout(() => {
-                fn.apply(this, args)
+                fn.apply(context, args)
+                coldown = false
             }, delay)
         }
     },
     debounce = function (fn, delay) {
         let event = null;
-        return function() {
+        return function(...args) {
+            const context = this
             if(event) {
                 clearTimeout(event)
             }
             event = setTimeout(() => {
-                fn.apply(this, args)
+                fn.apply(context, args)
             }, delay)
         }
     }
