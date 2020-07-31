@@ -51,7 +51,7 @@ let just = justa = (function(){
             }, delay)
         }
     },
-    debounce = function () {
+    debounce = function (fn, delay) {
         let event = null;
         return function() {
             if(event) {
