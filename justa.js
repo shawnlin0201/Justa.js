@@ -37,13 +37,38 @@ let just = justa = (function(){
     },
     deleteCookie = function (cname) {
         document.cookie = cname + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+    },
+    throttle = function (fn, delay) {
+        let coldown = false;
+        let event = null;
+        return function(...args) {
+            if(coldown) { return }
+            
+            coldown = true
+            clearTimeout(event)
+            event = setTimeout(() => {
+                fn.apply(this, args)
+            }, delay)
+        }
+    },
+    debounce = function () {
+        let event = null;
+        return function() {
+            if(event) {
+                clearTimeout(event)
+            }
+            event = setTimeout(() => {
+                fn.apply(this, args)
+            }, delay)
+        }
     }
-    
     ;return {
         symbolParser,
         symbolAntiParser,
         getCookie,
         setCookie,
-        deleteCookie
+        deleteCookie,
+        throttle,
+        debounce,
     }
 })()
