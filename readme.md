@@ -26,7 +26,7 @@ or
 - cname: cookie key name.
 
 ```js
-let jsFilesVersion = just.getCookie('jsFilesVersion') // get client JavaScript files version
+let jsFilesVersion = Justa.getCookie('jsFilesVersion') // get client JavaScript files version
 console.log(jsFilesVersion) // '20190701'
 ```
 
@@ -37,7 +37,7 @@ console.log(jsFilesVersion) // '20190701'
 - exdays: cookie expires count as day.
 
 ```js
-just.setCookie('jsFilesVersion', '20200522', 30)
+Justa.setCookie('jsFilesVersion', '20200522', 30)
 ```
 
 #### deleteCookie
@@ -45,7 +45,7 @@ just.setCookie('jsFilesVersion', '20200522', 30)
 - cname: cookie key.
 
 ```js
-just.deleteCookie('jsFilesVersion')
+Justa.deleteCookie('jsFilesVersion')
 ```
 
 ## License
